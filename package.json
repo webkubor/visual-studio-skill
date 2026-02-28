@@ -1,14 +1,18 @@
 {
-  "name": "visual-design-studio",
+  "name": "visual-studio-skill",
   "version": "1.2.0",
-  "description": "Consolidated visual design suite for AI image/UI generation.",
-  "author": "webkubor",
-  "license": "MIT",
+  "description": "Visual Design Studio Master. Orchestrates Persona Reconstruction, Brand Identity, and UI/UX Implementation.",
   "type": "module",
+  "author": "司南烛 (Si Nan Zhu)",
+  "license": "MIT",
+  "keywords": [
+    "visual-design",
+    "persona-lock",
+    "brand-identity",
+    "ui-ux"
+  ],
+  "homepage": "https://github.com/webkubor/visual-studio-skill",
   "scripts": {
-    "install-skill": "gemini skills install .",
-    "package": "zip -r visual-design-studio.skill . -x '.*' '__MACOSX' '.git/*'",
-    "check-update": "node scripts/check.js",
-    "update": "git pull origin master && npm run install-skill"
+    "validate": "node scripts/validate.js"
   }
 }
