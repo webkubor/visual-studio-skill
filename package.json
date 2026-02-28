@@ -1,7 +1,7 @@
 {
   "name": "visual-studio-skill",
-  "version": "1.2.0",
-  "description": "Visual Design Studio Master. Orchestrates Persona Reconstruction, Brand Identity, and UI/UX Implementation.",
+  "version": "1.2.1",
+  "description": "Universal Visual Design Studio Protocol. Cross-model Persona Reconstruction, Brand Identity, and production-grade UI/UX Implementation.",
   "type": "module",
   "author": "司南烛 (Si Nan Zhu)",
   "license": "MIT",
@@ -9,7 +9,9 @@
     "visual-design",
     "persona-lock",
     "brand-identity",
-    "ui-ux"
+    "ui-ux",
+    "ai-skill",
+    "mcp"
   ],
   "homepage": "https://github.com/webkubor/visual-studio-skill",
   "scripts": {
